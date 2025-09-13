@@ -628,8 +628,7 @@ Créer un fichier `.env` dans le dossier `server/` :
 ```env
 # Base de données
 MONGODB_URI=mongodb://localhost:27017/pollution_map
-# ou pour MongoDB Atlas :
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/pollution_map
+
 
 # JWT
 JWT_SECRET=votre_secret_jwt_super_securise_ici
