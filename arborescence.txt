@@ -1,0 +1,159 @@
+Structure du dossier pour le volume Windows
+Le numéro de série du volume est E292-905B
+C:pollution-map
+|   
+|   
++---client
+|   |   .gitignore
+|   |   babel.config.js
+|   |   vue.config.js
+|   |   
+|   +---dist
+|   |   
+|   |           
+|   +---node_modules
+|   |   |
+|   |               
+|   +---public
+|   |   |   favicon.ico
+|   |   |   index.html
+|   |   |   
+|   |   +---icons
+|   |   |       
+|   |   \---img
+|   |       |   
+|   |       +---avatars
+|   |       |       
+|   |       \---icons
+|   |               
+|   \---src
+|       |   App.vue
+|       |   main.js
+|       |   
+|       |   |   
+|       |   +---icons
+|       |   |       
+|       |   \---styles
+|       |           about.css
+|       |           admin.css
+|       |           form.css
+|       |           home.css
+|       |           
+|       |   |   AlertMessage.vue
+|       |   |   EvaluationBar.vue
+|       |   |   FilterBar.vue
+|       |   |   HelloWorld.vue
+|       |   |   NavbarProfile.vue
+|       |   |   NavigationBar.vue
+|       |   |   RatingStars.vue
+|       |   |   ReportCard.vue
+|       |   |   ReportCardNote.vue
+|       |   |   ReportForm.vue
+|       |   |   ReportMap.vue
+|       |   |   
+|       |           BarChart.vue
+|       |           DoughnutChart.vue
+|       |           
+|       +---router
+|       |       index.js
+|       |       
+|       +---utils
+|       |       auth.js
+|       |       
+|       \---views
+|               About.vue
+|               Admin.vue
+|               AdminDashboard.vue
+|               AdminEvaluation.vue
+|               AdminUserList.vue
+|               AjoutSignalement.vue
+|               Carte.vue
+|               Home.vue
+|               HomeView.vue
+|               LoginView.vue
+|               MapView.vue
+|               MesFavoris.vue
+|               MesNotes.vue
+|               ModifierReport.vue
+|               note.vue
+|               NoterView.vue
+|               NotFound.vue
+|               RegisterView.vue
+|               UserProfile.vue
+|               
+\---server
+    |   .env
+    |   app.js
+    |   create-admin.js
+    |   seed.js
+    |   seedAdmin.js
+    |   seedAvatars.js
+    |   server.js
+    |   
+    +---config
+    |       db.js
+    |       
+    +---controllers
+    |       adminController.js
+    |       authController.js
+    |       avatarController.js
+    |       imageController.js
+    |       noteController.js
+    |       reportController.js
+    |       typeController.js
+    |       userController.js
+    |       
+    +---middlewares
+    |       auth.js
+    |       authUser.js
+    |       upload.js
+    |       
+    +---models
+    |       Admin.js
+    |       avatar.js
+    |       image.js
+    |       NoteReport.js
+    |       report.js
+    |       Type.js
+    |       User.js
+    |       
+    +---node_modules
+    |   |   
+    |   +---.bin
+    |   |       bcrypt
+    |   |       mime
+    |   |       mkdirp
+    |   |       node-gyp-build
+    |   |       node-gyp-build-optional
+    |   |       node-gyp-build-test
+    |   |       nodemon
+    |   |       nodetouch
+    |   |       semver
+    |   |       
+    |   +---@mongodb-js
+    |   |   \---saslprep
+    |   |       |   LICENSE
+    |   |       |   
+    |   |       \---dist
+    |   |               .esm-wrapper.mjs
+    |   |               browser.js
+    |   |               index.js
+    |   |               node.js
+    |   |               util.js
+    |   |               
+    |   +---@types
+    |   
+    |       
+    +---routes
+    |       adminRoutes.js
+    |       authRoutes.js
+    |       avatarRoutes.js
+    |       imageRoutes.js
+    |       noteReportRoute.js
+    |       reportRoutes.js
+    |       typeRoutes.js
+    |       userRoutes.js
+    |       
+    \---utils
+            evaluation.js
+            
